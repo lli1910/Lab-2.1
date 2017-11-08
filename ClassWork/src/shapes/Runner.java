@@ -11,7 +11,7 @@ package shapes;
  *         etc. Choose one of the following: Rhombus, Trapezoid, Parallelogram,
  *         Kite
  * 
- *         Both classes must extend shape, and implement all necessary methods.
+ *         Both classes must implement shape, and implement all necessary methods.
  */
 public class Runner {
 
