@@ -39,6 +39,7 @@ public class ShapeUtilities {
 	 */
 	public static double sumArea(Shape[] shapes) {
 		// To be written by student
+		
 		return 0.0;
 	}
 
