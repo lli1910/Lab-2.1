@@ -39,8 +39,14 @@ public class ShapeUtilities {
 	 */
 	public static double sumArea(Shape[] shapes) {
 		// To be written by student
+		Shape[] shapeArr = { circle1, rectangle1, square1 };
+
+		for (Shape shape : shapeArr) {
+			System.out.println(shape);
+		}
 		
-		return 0.0;
+		
+		return ;
 	}
 
 	/**
