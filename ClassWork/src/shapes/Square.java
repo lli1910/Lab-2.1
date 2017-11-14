@@ -3,7 +3,7 @@ package shapes;
 public class Square extends Rectangle {
 
 	int side;
-	Rectangle square = new Rectangle.calculateArea();
+
 
 	public Square(int side) {
 		super(side, side);
@@ -14,7 +14,7 @@ public class Square extends Rectangle {
 	@Override
 	public String toString() {
 		// To be written by student
-		return square.calculateArea;
+		return Square;
 	}
-
 }
+ 
