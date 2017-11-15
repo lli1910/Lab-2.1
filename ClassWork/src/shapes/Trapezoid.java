@@ -11,5 +11,20 @@ public class Trapezoid implements Shape{
 		this.bbase = bbase;
 		this.height = height;
 	}
-	
+	public double calculateArea() {
+		// To be written by student
+		return length * width;
+	}
+
+
+	public double calculatePerimeter() {
+		// To be written by student
+		return (2*length)+(2*width);
+	}
+
+
+	public String toString() {
+		return "Rectangle Width: " + width + " Length: " + length + " Area: " + this.calculateArea() + " Perimeter: "
+				+ this.calculatePerimeter();
+	}
 }
