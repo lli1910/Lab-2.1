@@ -39,14 +39,12 @@ public class ShapeUtilities {
 	 */
 	public static double sumArea(Shape[] shapes) {
 		// To be written by student
-		Shape[] shapeArr = { circle1, rectangle1, square1 };
-
-		for (Shape shape : shapeArr) {
-			System.out.println(shape);
+		double sum = 0;
+		for (Shape shape : shapes) {
+			sum += shape.calculateArea();
 		}
 		
-		
-		return ;
+		return sum;
 	}
 
 	/**
@@ -57,7 +55,13 @@ public class ShapeUtilities {
 	 */
 	public static double sumPerimeter(Shape[] shapes) {
 		// To be written by student
-		return 0.0;
+		double perimeter = 0;
+		
+		for(Shape shape : shapes) {
+			perimeter += shape.calculatePerimeter();  //how can we call a method for diff class
+		}
+		
+		return perimeter;
 	}
 
 }
