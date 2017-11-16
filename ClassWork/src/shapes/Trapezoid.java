@@ -13,7 +13,7 @@ public class Trapezoid implements Shape{
 	}
 	public double calculateArea() {
 		// To be written by student
-		return length * width;
+		return ((base + bbase)/2)*height;
 	}
 
 
